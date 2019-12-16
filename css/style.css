@@ -1,8 +1,54 @@
 /* UTF-8 なら */
 @charset "utf-8";
 
-p {
- color: #f00;
+
+p.t_taransition a{
+    color: #f00;
+    font-size: 14px;
+    text-decoration: none;
+    padding-top: 0;
+    transition: 0.7s;
+    transition-timing-function: step-start;
 }
 
+p.t_taransition a:hover {
+    color: #000;
+    font-size: 24px;
+    padding-top: 100px;
+}
+/* p.t_taransition a:active {
+    color: #000;
+    font-size: 24px;
+    padding-top: 100px;
+} */
 
+/* p.t_taransition a:focus  {
+    color: #000;
+    font-size: 24px;
+    padding-top: 100px;
+} */
+
+p.t_animation a{
+    color: #0f0;
+    font-size: 14px;
+    text-decoration: none;
+    padding-top: 0;
+    transition: 0.7s;
+}
+
+p.t_animation a:hover {
+    color: #000;
+    font-size: 24px;
+    padding-top: 100px;
+}
+/* p.t_animation a:active {
+    color: #000;
+    font-size: 24px;
+    padding-top: 100px;
+} */
+
+/* p.t_animation a:focus  {
+    color: #000;
+    font-size: 24px;
+    padding-top: 100px;
+} */
